@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#game-container {
+    max-width: 600px; 
+    margin: auto;
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: #238636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2ea043;
+}
+
+#attemptsLeft {
+    margin-top: 10px;
+}
+
+#feedback-history {
+    margin-bottom: 20px;
+}
+
+.feedback-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #21262d;
+    align-items: center;
+}
+
+.feedback-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: gray;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.2;
+}
+
+.dot.green {
+    background: #2ecc71; 
+}
+
+.dot.red {
+    background: #e74c3c; 
+}
+
+.dot.yellow {
+    background: #f1c40f; 
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#messageArea {
+    color: #e74c3c;
+    margin-top: 10px;
+    font-weight: bold;
+}
